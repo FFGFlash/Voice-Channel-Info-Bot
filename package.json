@@ -1,0 +1,29 @@
+{
+  "name": "BlakeBot",
+  "version": "1.0.0",
+  "description": "Blake Voice Channel Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FFGFlash/BlakeBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FFGFlash/BlakeBot/issues"
+  },
+  "homepage": "https://github.com/FFGFlash/BlakeBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

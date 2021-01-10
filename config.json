@@ -1,0 +1,16 @@
+{
+  "Defaults": {
+    "Prefix": "~",
+    "VoiceChannel": null,
+    "PriorityList": {}
+  },
+  "Guilds": {
+    "417515129601523715": {
+      "Prefix": "~",
+      "VoiceChannel": "467930239188598785",
+      "PriorityList": {
+        "142486322295078912": 1
+      }
+    }
+  }
+}
