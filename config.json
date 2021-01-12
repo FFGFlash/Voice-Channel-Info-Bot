@@ -1,16 +1,20 @@
 {
   "Defaults": {
-    "Prefix": "~",
-    "VoiceChannel": null,
-    "PriorityList": {}
-  },
-  "Guilds": {
-    "417515129601523715": {
+    "Guild": {
       "Prefix": "~",
-      "VoiceChannel": "467930239188598785",
-      "PriorityList": {
-        "142486322295078912": 1
-      }
+      "VoiceChannel": null,
+      "PriorityList": {}
+    },
+    "User": {
+      "Socials": {}
     }
-  }
+  },
+  "Socials": [
+    "twitch",
+    "twitter",
+    "youtube",
+    "instagram"
+  ],
+  "Guilds": {},
+  "Users": {}
 }

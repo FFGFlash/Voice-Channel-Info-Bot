@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Blake Voice Channel Bot",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "nodemon",
     "start": "node ."
@@ -12,10 +13,13 @@
     "url": "git+https://github.com/FFGFlash/BlakeBot.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Drake Taylor",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/FFGFlash/BlakeBot/issues"
+  },
+  "pkg": {
+    "targets": [ "node14-win-x64", "node14-win-x86" ]
   },
   "homepage": "https://github.com/FFGFlash/BlakeBot#readme",
   "dependencies": {
