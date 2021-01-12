@@ -4,15 +4,17 @@ A simple discord bot made to store the data of discord users in text files for s
 #### Developed by FFGFlash#9510
 
 ## Setup
-1. Create a discord bot in the [Discord Developer Portal]("https://discord.com/developers/applications").
-2. Download the latest executable.
-3. Create a ``.env`` file in the same directory as the executable containing the following information
+1. Download and Install [NodeJS](https://nodejs.org/en/)
+2. Create a discord bot in the [Discord Developer Portal](https://discord.com/developers/applications).
+3. Download the latest project files.
+3. Create a ``.env`` file in the project directory with the following contents.
 ```env
 BOT_TOKEN=<bot token>
 AUTOSAVE_INTERVAL=<time in seconds>(defaults: 5)
 ```
-4. Add the bot to your discord server using this link ``https://discord.com/api/oauth2/authorize?client_id=<client id>&permissions=76816&scope=bot``
-5. Run the executable.
+4. Add the bot to your discord server using the following link ``https://discord.com/api/oauth2/authorize?client_id=<client id>&permissions=76816&scope=bot``
+5. Run install.bat
+6. Run start.bat
 
 ## Usage
 1. Join the voice channel you want to get data from.
