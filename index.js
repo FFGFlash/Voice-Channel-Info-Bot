@@ -99,7 +99,6 @@ function getAvatarURLs(user, ...sizes) {
 }
 
 Client.on("ready", () => {
-  console.log(Client);
   console.log(`${Client.user.tag} is online!`);
   Client.user.setPresence({
     status: "dnd",
@@ -118,7 +117,7 @@ Client.on("ready", () => {
     if (guild.available) {
       let config = Config.Guilds[guild.id];
       if (!config) {
-        config = Config.Guilds[guild.id] = FastClone(Config.Guilds.Defaults);
+        config = Config.Guilds[guild.id] = FastClone(Config.Defaults.Guild);
       }
 
       if (config.VoiceChannel) {

@@ -15,6 +15,12 @@
     "youtube",
     "instagram"
   ],
-  "Guilds": {},
+  "Guilds": {
+    "417515129601523715": {
+      "Prefix": "~",
+      "VoiceChannel": null,
+      "PriorityList": {}
+    }
+  },
   "Users": {}
 }
